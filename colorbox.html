@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-   
-    <div>
+   <h1 data-testid="gameInstructions">Guess the correct color!</h1>
+    <div data-testid="colorOption">
         <button class="color-button" id="red-btn" style="background-color: red;">Red</button>
         <button class="color-button" id="blue-btn" style="background-color: blue;">Blue</button>
         <button class="color-button" id="green-btn" style="background-color: green;">Green</button>
@@ -18,7 +18,7 @@
     </div>
 
    
-    <div class="color-box" id="color-box"></div>
+    <div class="color-box" id="color-box" data-testid="colorBox"></div>
 
    
     <div class="message" id="game-message"></div>
